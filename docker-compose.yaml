@@ -162,7 +162,7 @@ services:
       retries: 3
     # Enable Instana EUM
     environment:
-      INSTANA_EUM_KEY: ${INSTANA_EUM_REPORTING_URL}
+      INSTANA_EUM_KEY: ${INSTANA_EUM_KEY}
       INSTANA_EUM_REPORTING_URL: ${INSTANA_EUM_REPORTING_URL}
     logging:
       <<: *logging
